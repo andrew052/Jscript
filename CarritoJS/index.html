@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <h1>Carrito de Compras</h1>
+  <div class="productos">
+    <div class="producto">
+      <h2>Producto 1</h2>
+      <p>Precio: $10</p>
+      <input type="number" value="1">
+      <button class="agregar">Agregar</button>
+    </div>
+    <div class="producto">
+      <h2>Producto 2</h2>
+      <p>Precio: $15</p>
+      <input type="number" value="1">
+      <button class="agregar">Agregar</button>
+    </div>
+  </div>
+  <div class="carrito">
+    <h2>Carrito</h2>
+    <ul id="lista-carrito"></ul>
+    <p>Total a pagar: $<span id="total">0</span></p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
